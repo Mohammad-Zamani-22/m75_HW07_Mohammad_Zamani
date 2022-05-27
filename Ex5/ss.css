@@ -1,0 +1,184 @@
+
+
+
+div #b1{
+    color: rgb(211, 206, 206);
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px; 
+    animation-name: bu1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes bu1{
+    0% {
+          left: 50px;
+          top: 0px;
+      }
+  
+      15% {
+          left: 100px;
+          top: 0px;
+      }
+      25% {
+        right: 100px;
+        top: 0px;
+    }
+    35% {
+        right: 1000px;
+        top: 0px;
+    }
+    
+    50% {
+        left: 500px;
+        nav-down: 500px;
+        border-radius: 50%;
+    }
+    
+  }
+  
+  /*-----------------*/
+
+  div #b2{
+    color: rgb(199, 198, 198);
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px; 
+    animation-name: bu2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes bu2{
+    0% {
+          left: 50px;
+          top: 0px;
+      }
+  
+      15% {
+          left: 100px;
+          top: 0px;
+      }
+      25% {
+        right: 100px;
+        top: 0px;
+    }
+    35% {
+        right: 1000px;
+        top: 0px;
+    }
+    
+    50% {
+        left: 500px;
+        nav-down: 500px;
+        border-radius: 50%;
+    }
+    
+  }
+
+  /*-----------------*/
+  div #b3{
+    color: rgb(205, 203, 203);
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px; 
+    animation-name: bu3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes bu3{
+    0% {
+          left: 50px;
+          top: 0px;
+      }
+  
+      15% {
+          left: 100px;
+          top: 0px;
+      }
+      25% {
+        right: 100px;
+        top: 0px;
+    }
+    35% {
+        right: 1000px;
+        top: 0px;
+    }
+    
+    50% {
+        left: 500px;
+        nav-down: 500px;
+        border-radius: 50%;
+    }
+    
+  }
+
+
+
+  /*-----------------*/
+  div #b4{
+    color: rgb(194, 193, 193);
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px; 
+    animation-name: bu4;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-fill-mode: backwards;
+  }
+  
+  @keyframes bu4{
+    0% {
+          left: 50px;
+          top: 0px;
+      }
+  
+      15% {
+          left: 100px;
+          top: 0px;
+      }
+      25% {
+        right: 100px;
+        top: 0px;
+    }
+    35% {
+        right: 1000px;
+        top: 0px;
+    }
+    
+    50% {
+        left: 500px;
+        nav-down: 500px;
+        border-radius: 50%;
+    }
+    
+  }

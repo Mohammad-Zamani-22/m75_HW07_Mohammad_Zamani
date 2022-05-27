@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    background-color: rgb(230, 235, 180);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+}
+
+.main-header{
+    display: flex;
+    height: 55vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.main-header h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.main-header h1 span{
+    font-size: 4rem;
+    color: rgb(19, 46, 126);
+}
+
+.main-header h1 p{
+    font-size: 3rem;
+}
+
+img{
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    background: rgb(238, 245, 207);
+    margin-bottom: 2rem;
+}
+
+.card h3{
+    margin-bottom: 20px;
+}
+
+/* .card >div{
+    padding: 2rem;
+} */
+
+.card:nth-child(even) img{
+    order: 2;
+}
+.btn{
+    display: inline-block;
+    width: 10rem;
+    background-color: rgb(236, 111, 111);
+    color: antiquewhite;
+    padding: 0.2rem 1rem;
+    margin-top: 2rem;
+    margin-left: 80px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+.btn2:hover:hover{
+    opacity: 0.8;
+}
+
+@media (max-width:700px) {
+    .card {
+        display: block;
+    }
+    
+}
+
+.btn2{
+    
+    background-color: rgb(236, 111, 111);
+    padding: 0.2rem 1rem;
+    margin-top: 2rem;
+    color: antiquewhite;
+    width: 10rem;
+    margin-left: 80px;
+    
+}

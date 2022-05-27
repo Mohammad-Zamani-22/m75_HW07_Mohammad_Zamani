@@ -1,0 +1,56 @@
+
+
+*{
+   box-sizing: border-box; 
+}
+
+
+#back{
+        width: 600px;
+        height: 300px;
+        background-color: rgb(89, 89, 93);
+        position:relative;
+
+    }
+    
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+   
+    
+    
+}
+
+#back:hover .circle {
+    animation: test 3s infinite linear alternate;
+}
+
+
+@keyframes test {
+
+    0% {
+        left: 0%;
+        top: 0%;
+        background-color: brown;
+    }
+
+    50% {
+        left: 40%;
+        top: 66%;
+        background-color: aqua;
+    }
+
+    100% {
+        left: 83%;
+        top: 0%;
+        background-color: orange;
+    }
+
+}
